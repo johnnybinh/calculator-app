@@ -1,0 +1,73 @@
+html{
+  height:100%;font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightcoral  ;
+}
+div{
+  font-size:60px;
+  display: flex;
+  flex-wrap: wrap;
+  width:400px;
+}
+
+.calcu#equal{
+  width:400px;
+}
+div h1#answer{
+  margin:0;
+  width:400px;
+  height:100px;
+  font-size: 60px;
+  background-color: black;
+  color:White;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+div button.func{
+  color:black;
+  background:lightgray;
+  border:none;
+  width:100px;height:100px;
+}
+div button.func:hover{
+  color:lightgray;
+  background:black;
+  border:none;
+  width:100px;height:100px;
+}
+
+div button.calcu{
+  color:black;
+  background:orange;
+  border:none;
+  width:100px;height:100px;
+}
+div button.calcu:hover{
+  color:orange;
+  background:black;
+  border:none;
+  width:100px;height:100px;
+}
+
+div button.numbtn{
+  color:white;
+  background:black;
+  border:none;
+  width:100px;height:100px;
+}
+
+div button.numbtn:hover{
+  color:black;
+  background:white;
+  border:none;
+  width:100px;height:100px;
+}
